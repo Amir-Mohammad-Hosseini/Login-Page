@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+}
+* , *::before , *::after{
+    box-sizing: inherit;
+    font-family: "poppins";
+}
+body{
+    background-color: #080710;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 400px;
+}
+.circle1{
+    position: absolute;
+    left: -100px ;
+    top: -100px ;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: linear-gradient(to right bottom , #2196F3 , #1976D2);
+}
+.circle2{
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: linear-gradient(to right bottom , #F57C00 , #FF9800);
+}
+form{
+    background-color: rgba(255, 255 , 255 , 0.13) ;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255 , 255 , 0.13) !important;
+    padding : 50px 35px 35px 35px ;
+    backdrop-filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+input{
+    background-color: rgba(255, 255 , 255 , 0.07);
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+button{
+    padding : 15px 0px ;
+    border-radius: 4px;
+    width: 100%;
+    border : 2px solid rgba(255, 255 , 255 , 0.07) ;
+    font-size : 18px;
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 300;
+}
+.login_here{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+    color: aliceblue;
+    margin-top: -30px;
+}
+.username , .password {
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+input{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.input2{
+    margin-bottom: 50px;
+}
